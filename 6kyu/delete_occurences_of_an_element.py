@@ -1,4 +1,4 @@
-def delete_nth(order,max_e):
+def delete_nth(order, max_e):
     lista = []
     for numero in order:
         if numero not in lista:
