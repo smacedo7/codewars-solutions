@@ -1,5 +1,6 @@
 from math import sqrt
 
+
 def find_number(sums):
     if not sums:
         return 0
