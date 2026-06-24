@@ -6,10 +6,15 @@ def create_phone_number(n):
     return f'({parte1}) {parte2}-{parte3}'
 
 
-# resoluçao dia 23/06 
+# resoluçao dia 23/06
 # def create_phone_number(n):
 #     string = ''
 #     for i in n:
 #         string += str(i)
 #     return f'({string[0:3]}) {string[3:6]}-{string[6:]}'
 
+# melhor resoluçao:
+
+# def create_phone_number(n):
+#     string = ''.join(map(str, n))
+#     return f'({string[0:3]}) {string[3:6]}-{string[6:]}'
