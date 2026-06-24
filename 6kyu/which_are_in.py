@@ -9,3 +9,14 @@ def in_array(array1, array2):
 
 
 # tempo recorde!
+
+# new solution day 06/24
+
+# def in_array(array1, array2):
+#     words = set()
+#     for i in array1:
+#         for j in range(len(array2)):
+#             if i in array2[j]:
+#                 words.add(i)
+#     lista = list(words)
+#     return sorted(lista)
