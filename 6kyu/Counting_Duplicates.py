@@ -11,11 +11,11 @@ def duplicate_count(text):
 
 
 # melhor solução:
+
 # def duplicate_count(text):
 #     return len([i for i in set(text.lower()) if text.lower().count(i) > 1])
 
 # resolution day 06/24
-
 # def duplicate_count(text):
 #     resultado = []
 #     repetido = []
