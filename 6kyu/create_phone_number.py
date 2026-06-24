@@ -6,7 +6,7 @@ def create_phone_number(n):
     return f'({parte1}) {parte2}-{parte3}'
 
 
-# resoluçao dia 23/06
+# "new resolution day 06/23"
 # def create_phone_number(n):
 #     string = ''
 #     for i in n:
